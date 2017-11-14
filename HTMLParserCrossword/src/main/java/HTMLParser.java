@@ -37,13 +37,6 @@ public class HTMLParser {
             }
             pw.close();
             return newelm;
-            /*if (doc.getElementById("poDiv").ownText().equals("no course")) {
-                return null;
-            } else {
-                Element table = doc.getElementById("poTable");
-                Elements rows = table.getElementsByTag("tr");
-                return rows;
-            }*/
         } catch (Exception e) {
             e.printStackTrace();
             return new Elements();
